@@ -300,8 +300,8 @@
     <div class="hero-content">
       <div class="hero-eyebrow"><div class="pulse-dot"></div>Disponível para freelance</div>
       <h1 class="hero-name">Luiz Alberto</h1>
-      <p class="hero-role">Desenvolvedor de <strong>Chatbots IA &amp; SaaS</strong></p>
-      <p class="hero-desc">Construo aplicações web potencializadas por IA e plataformas SaaS que resolvem problemas reais de negócios — de chatbots inteligentes que atendem clientes automaticamente a sistemas de agendamento ponta a ponta usados por clínicas de saúde.</p>
+      <p class="hero-role">Desenvolvedor de <strong>Agentes IA &amp; SaaS Multi-Agent</strong></p>
+      <p class="hero-desc">Construo aplicações web com agentes de IA autônomos orquestrados por LangGraph — de sistemas de triagem clínica que agendam consultas a plataformas de qualificação de leads multicanal e inteligência de documentos com RAG.</p>
       <div class="hero-ctas">
         <a href="#projects" class="btn-primary">Ver Meus Projetos</a>
         <a href="mailto:betosensacao@gmail.com" class="btn-ghost">betosensacao@gmail.com</a>
@@ -322,42 +322,45 @@
       <div class="sk-cat cat-ai">
         <div class="sk-cat-hd"><div class="sk-dot"></div><span class="sk-name">IA / LLM</span></div>
         <div class="sk-tags">
-          <span class="sk-tag">Claude AI</span><span class="sk-tag">Anthropic API</span>
+          <span class="sk-tag">LangGraph.js</span><span class="sk-tag">OpenRouter</span>
           <span class="sk-tag">Google Gemini</span><span class="sk-tag">Groq API</span>
-          <span class="sk-tag">Llama 3.3 70B</span><span class="sk-tag">Prompt Eng.</span>
-          <span class="sk-tag">Streaming SSE</span><span class="sk-tag">Validação Zod</span>
+          <span class="sk-tag">Llama 3.3 70B</span><span class="sk-tag">Nemotron</span>
+          <span class="sk-tag">Prompt Eng.</span><span class="sk-tag">Streaming SSE</span>
+          <span class="sk-tag">Validação Zod</span><span class="sk-tag">RAG</span>
+          <span class="sk-tag">Embeddings pgvector</span>
         </div>
       </div>
       <div class="sk-cat cat-fe">
         <div class="sk-cat-hd"><div class="sk-dot"></div><span class="sk-name">Frontend</span></div>
         <div class="sk-tags">
-          <span class="sk-tag">Next.js 15/16</span><span class="sk-tag">React</span>
+          <span class="sk-tag">Next.js 16</span><span class="sk-tag">React</span>
           <span class="sk-tag">TypeScript</span><span class="sk-tag">Tailwind CSS v4</span>
           <span class="sk-tag">shadcn/ui</span><span class="sk-tag">Radix UI</span>
-          <span class="sk-tag">React Hook Form</span>
+          <span class="sk-tag">Supabase Realtime</span>
         </div>
       </div>
       <div class="sk-cat cat-be">
         <div class="sk-cat-hd"><div class="sk-dot"></div><span class="sk-name">Backend</span></div>
         <div class="sk-tags">
           <span class="sk-tag">Node.js</span><span class="sk-tag">Next.js API</span>
-          <span class="sk-tag">Drizzle ORM</span><span class="sk-tag">Prisma</span>
-          <span class="sk-tag">REST APIs</span><span class="sk-tag">Zod</span>
-          <span class="sk-tag">Vitest</span>
+          <span class="sk-tag">Drizzle ORM</span><span class="sk-tag">PostgresSaver</span>
+          <span class="sk-tag">REST APIs</span><span class="sk-tag">n8n Webhooks</span>
+          <span class="sk-tag">WhatsApp API</span><span class="sk-tag">Resend</span>
         </div>
       </div>
       <div class="sk-cat cat-db">
         <div class="sk-cat-hd"><div class="sk-dot"></div><span class="sk-name">Banco de Dados &amp; Auth</span></div>
         <div class="sk-tags">
           <span class="sk-tag">PostgreSQL</span><span class="sk-tag">Supabase</span>
-          <span class="sk-tag">Supabase Auth SSR</span><span class="sk-tag">RLS / RBAC</span>
+          <span class="sk-tag">pgvector</span><span class="sk-tag">Supabase Auth SSR</span>
+          <span class="sk-tag">RLS / RBAC</span><span class="sk-tag">pgSchema</span>
           <span class="sk-tag">Drizzle Kit</span>
         </div>
       </div>
       <div class="sk-cat cat-dv">
         <div class="sk-cat-hd"><div class="sk-dot"></div><span class="sk-name">DevOps &amp; Infra</span></div>
         <div class="sk-tags">
-          <span class="sk-tag">Vercel</span><span class="sk-tag">Resend</span>
+          <span class="sk-tag">Vercel</span><span class="sk-tag">n8n</span>
           <span class="sk-tag">React Email</span><span class="sk-tag">Cloudflare Turnstile</span>
           <span class="sk-tag">Docker</span><span class="sk-tag">Git</span>
         </div>
@@ -371,7 +374,7 @@
     <div class="reveal">
       <div class="sec-label">O que eu construí</div>
       <h2 class="sec-title">Projetos em Destaque</h2>
-      <p class="sec-desc">Três aplicações em produção cobrindo chatbots IA, arquitetura SaaS e HealthTech — todas implantadas e no ar.</p>
+      <p class="sec-desc">Três aplicações em produção usando LangGraph multi-agent, Drizzle ORM e Supabase — todas implantadas e no ar.</p>
     </div>
     <div class="projects-list">
 
@@ -381,27 +384,28 @@
           <div class="proj-badges">
             <span class="proj-badge badge-live">● No ar</span>
             <span class="proj-badge badge-health">HealthTech</span>
-            <span class="proj-badge badge-fusion">ARIA-Med + ScheduleClinic</span>
+            <span class="proj-badge badge-ai">LangGraph</span>
           </div>
           <h3 class="proj-title">MedBook</h3>
           <p class="proj-sub">SaaS de Agendamento Clínico com Triagem por IA</p>
-          <p class="proj-desc">SaaS full-stack que funde um sistema de triagem por IA com uma plataforma de agendamento. Pacientes conversam com Llama 3.3 70B via Groq — classifica urgência como VERMELHO / AMARELO / VERDE e roteia para a especialidade certa. Só então o agendamento é liberado. Construído sobre as bases do ARIA-Med (triagem IA) e ScheduleClinic (fluxo de agendamento).</p>
+          <p class="proj-desc">SaaS full-stack com agente LangGraph que faz triagem de sintomas (Llama 3.3 70B via Groq), classifica urgência como VERMELHO / AMARELO / VERDE, roteia para a especialidade correta e agenda no Google Calendar — tudo numa conversa. Usa PostgresSaver para persistência de estado entre turnos e Supabase Realtime para dashboards ao vivo.</p>
           <div class="proj-tech">
             <span class="tech-chip">Next.js 16</span><span class="tech-chip">TypeScript</span>
-            <span class="tech-chip">Groq API</span><span class="tech-chip">Llama 3.3 70B</span>
-            <span class="tech-chip">PostgreSQL</span><span class="tech-chip">Supabase Auth</span>
-            <span class="tech-chip">Drizzle ORM</span><span class="tech-chip">shadcn/ui</span>
-            <span class="tech-chip">SSE Streaming</span><span class="tech-chip">Resend</span>
+            <span class="tech-chip">LangGraph.js</span><span class="tech-chip">Groq API</span>
+            <span class="tech-chip">Llama 3.3 70B</span><span class="tech-chip">PostgreSQL</span>
+            <span class="tech-chip">Supabase Realtime</span><span class="tech-chip">pgSchema</span>
+            <span class="tech-chip">PostgresSaver</span><span class="tech-chip">Drizzle ORM</span>
+            <span class="tech-chip">Google Calendar API</span>
           </div>
           <div class="proj-links">
             <a href="https://medbook-amber.vercel.app/booking" target="_blank" class="link-demo">Demo ao Vivo →</a>
             <a href="https://medbook-amber.vercel.app/triage" target="_blank" class="link-gh">Triagem por IA ↗</a>
           </div>
           <div class="arch-grid">
-            <div class="arch-item" style="border-color:var(--a5)"><strong style="color:var(--a5)">Fluxo AI-First</strong><p>Triagem antes do agendamento — urgência + especialidade filtram quais clínicas são exibidas.</p></div>
-            <div class="arch-item" style="border-color:var(--a2)"><strong style="color:var(--a2)">SSE em Tempo Real</strong><p>Streaming de tokens ao vivo do Groq via SDK compatível com OpenAI e baseURL customizada.</p></div>
-            <div class="arch-item" style="border-color:var(--a4)"><strong style="color:var(--a4)">JSON Estruturado</strong><p>Segunda chamada LLM extrai sintoma, urgência, especialidade — validado por Zod, armazenado via Drizzle.</p></div>
-            <div class="arch-item" style="border-color:var(--a3)"><strong style="color:var(--a3)">Auth Multi-role</strong><p>Middleware gerencia refresh de sessão e separa rotas públicas de admin protegidas.</p></div>
+            <div class="arch-item" style="border-color:var(--a5)"><strong style="color:var(--a5)">Agente LangGraph</strong><p>Router + Triage + Scheduling + Escalation nodes com roteamento condicional entre nós.</p></div>
+            <div class="arch-item" style="border-color:var(--a2)"><strong style="color:var(--a2)">PostgresSaver</strong><p>Checkpointing no PostgreSQL — estado persiste entre requisições, permitindo time travel e histórico.</p></div>
+            <div class="arch-item" style="border-color:var(--a4)"><strong style="color:var(--a4)">Google Calendar</strong><p>Cria, cancela e verifica disponibilidade em tempo real via service account — agente decide o melhor horário.</p></div>
+            <div class="arch-item" style="border-color:var(--a3)"><strong style="color:var(--a3)">Supabase Realtime</strong><p>Dashboard ao vivo mostra triagens, agendamentos e status do sistema sem refresh.</p></div>
           </div>
         </div>
         <div class="proj-preview">
@@ -412,7 +416,7 @@
             </div>
             <div class="triage-top">
               <div class="triage-avatar">M</div>
-              <div><div class="triage-nm">MedBook AI Triage</div><div class="triage-st">● Llama 3.3 70B via Groq</div></div>
+              <div><div class="triage-nm">MedBook AI Triage</div><div class="triage-st">● LangGraph + Llama 3.3 70B</div></div>
             </div>
             <div class="triage-msgs">
               <div class="tmsg tmsg-ai"><div class="tbub">Olá! Descreva seus sintomas e eu vou roteá-lo para o especialista correto antes do agendamento.</div></div>
@@ -432,97 +436,113 @@
         </div>
       </div>
 
-      <!-- ARIA -->
-      <div class="proj-card aria reveal">
+      <!-- AutoLead -->
+      <div class="proj-card autolead reveal">
         <div class="proj-info">
           <div class="proj-badges">
-            <span class="proj-badge badge-ai">Agente IA</span>
-            <span class="proj-badge badge-fusion">Claude API</span>
+            <span class="proj-badge badge-live">● No ar</span>
+            <span class="proj-badge badge-saas">SaaS</span>
+            <span class="proj-badge badge-ai">LangGraph Multi-Agent</span>
           </div>
-          <h3 class="proj-title">ARIA</h3>
-          <p class="proj-sub">Agente de Atendimento ao Cliente com IA · Multi-vertical</p>
-          <p class="proj-desc">Chatbot de IA em nível de produção, alimentado pela Claude API da Anthropic, que atende clientes de forma autônoma para imobiliárias, e-commerces e clínicas de saúde. A mesma base de código alterna verticais pela interface — sem necessidade de refazer a plataforma. Possui métricas de sessão em tempo real, detecção automática de escalonamento e contexto multi-turno. Demonstra até 85% de redução na carga de suporte humano.</p>
+          <h3 class="proj-title">AutoLead</h3>
+          <p class="proj-sub">Qualificação de Leads com Agentes Autônomos IA</p>
+          <p class="proj-desc">Plataforma multi-agente LangGraph que captura, qualifica (BANT) e distribui leads automaticamente via chat, WhatsApp e e-mail — 24/7. Cinco agentes especializados (Router, Capture, Qualification, DoubtResolution, Distribution) orquestram todo o funil de vendas com estado persistente via PostgresSaver e dashboards em tempo real com Supabase Realtime.</p>
           <div class="proj-tech">
-            <span class="tech-chip">Claude AI</span><span class="tech-chip">Anthropic API</span>
-            <span class="tech-chip">Engenharia de Prompts</span><span class="tech-chip">Vanilla JS</span>
-            <span class="tech-chip">CSS3</span><span class="tech-chip">HTML5</span>
-            <span class="tech-chip">Contexto multi-turno</span>
+            <span class="tech-chip">Next.js 16</span><span class="tech-chip">TypeScript</span>
+            <span class="tech-chip">LangGraph.js</span><span class="tech-chip">OpenRouter (Gemini)</span>
+            <span class="tech-chip">Drizzle ORM</span><span class="tech-chip">Supabase Realtime</span>
+            <span class="tech-chip">PostgresSaver</span><span class="tech-chip">n8n</span>
+            <span class="tech-chip">WhatsApp API</span><span class="tech-chip">Resend</span>
           </div>
           <div class="proj-links">
-            <a href="https://aria-chatbot-blond.vercel.app/" target="_blank" class="link-demo orange">Testar ARIA →</a>
+            <a href="https://auto-lead-dun.vercel.app" target="_blank" class="link-demo orange">Demo ao Vivo →</a>
+          </div>
+          <div class="arch-grid">
+            <div class="arch-item" style="border-color:var(--a1)"><strong style="color:var(--a1)">BANT Qualification</strong><p>Avalia Budget, Authority, Need e Timeline automaticamente — lead scoring sem intervenção humana.</p></div>
+            <div class="arch-item" style="border-color:var(--a2)"><strong style="color:var(--a2)">5 Agentes LangGraph</strong><p>Router → Capture → Qualification → DoubtResolution → Distribution. Cada nó com ferramentas especializadas.</p></div>
+            <div class="arch-item" style="border-color:var(--a4)"><strong style="color:var(--a4)">Multi-Channel</strong><p>WhatsApp, e-mail e web chat com memória compartilhada — lead único em qualquer canal.</p></div>
+            <div class="arch-item" style="border-color:var(--a3)"><strong style="color:var(--a3)">Event-Driven</strong><p>n8n webhooks conectam CRMs legados, planilhas e ERPs aos pipelines de IA.</p></div>
           </div>
         </div>
-        <div class="proj-preview" style="background:linear-gradient(135deg,rgba(255,77,109,.04),rgba(11,11,28,1))">
+        <div class="proj-preview" style="background:linear-gradient(135deg,rgba(255,154,60,.04),rgba(11,11,28,1))">
           <div class="mock-win">
             <div class="mock-bar">
               <div class="mdot" style="background:#ff5f57"></div><div class="mdot" style="background:#febc2e"></div><div class="mdot" style="background:#28c840"></div>
-              <div class="mock-url">aria-agent · Claude API</div>
+              <div class="mock-url">auto-lead-dun.vercel.app</div>
             </div>
-            <div class="aria-header">
+            <div class="aria-header" style="background:rgba(255,154,60,.08)">
               <div class="aria-title-row">
-                <div class="aria-avatar">A</div>
-                <div><div class="aria-nm">ARIA — Atendimento com IA</div><div style="font-size:.58rem;color:var(--text-dim);font-family:var(--fm)">Powered by Claude API</div></div>
-              </div>
-              <div class="aria-tabs">
-                <div class="aria-tab">Imobiliário</div>
-                <div class="aria-tab">E-commerce</div>
-                <div class="aria-tab active">Saúde</div>
+                <div class="aria-avatar" style="background:linear-gradient(135deg,#ff9a3c,#ff4d6d)">A</div>
+                <div><div class="aria-nm">AutoLead — Qualificação IA</div><div style="font-size:.58rem;color:var(--text-dim);font-family:var(--fm)">Powered by LangGraph + Gemini</div></div>
               </div>
             </div>
             <div class="aria-msgs">
-              <div class="amsg amsg-ai"><div class="abub">Olá! Sou a ARIA, sua assistente de saúde. Como posso ajudar hoje?</div></div>
-              <div class="amsg amsg-u"><div class="abub">Preciso remarcar minha consulta com Dr. Santos.</div></div>
-              <div class="amsg amsg-ai"><div class="abub">Claro. Vejo sua consulta segunda dia 14 às 10h. Preferiria horário de manhã ou tarde?</div></div>
-              <div class="amsg amsg-u"><div class="abub">Tarde por favor, depois das 15h.</div></div>
-              <div class="amsg amsg-ai"><div class="abub">Feito! Remarcado para terça dia 15 às 15:30. Confirmação enviada por e-mail. ✓</div></div>
+              <div class="amsg amsg-ai"><div class="abub" style="border-color:rgba(255,154,60,.2);background:rgba(255,154,60,.08)">Olá! Sou o AutoLead. Vou ajudar a qualificar seu lead. Qual o orçamento disponível para o projeto?</div></div>
+              <div class="amsg amsg-u"><div class="abub">Entre R$ 50k e R$ 100k.</div></div>
+              <div class="amsg amsg-ai"><div class="abub" style="border-color:rgba(255,154,60,.2);background:rgba(255,154,60,.08)">Ótimo. Quem é o decisor nessa área?</div></div>
+              <div class="amsg amsg-u"><div class="abub">Sou eu mesmo, sou o CTO.</div></div>
+              <div class="amsg amsg-ai">
+                <div class="abub" style="border-color:rgba(255,154,60,.2);background:rgba(255,154,60,.08)">Lead qualificado com sucesso! Score: 92 — Prioridade ALTA. Enviando para o CRM via n8n.</div>
+              </div>
             </div>
             <div class="aria-metrics">
-              <div class="aria-metric"><div class="aria-metric-n" style="color:var(--a4)">85%</div><div class="aria-metric-l">Autoatendimento</div></div>
-              <div class="aria-metric"><div class="aria-metric-n" style="color:var(--a2)">24</div><div class="aria-metric-l">Resolvidos</div></div>
-              <div class="aria-metric"><div class="aria-metric-n" style="color:var(--a1)">3</div><div class="aria-metric-l">Escalados</div></div>
-              <div class="aria-metric"><div class="aria-metric-n" style="color:var(--a3)">&lt;2s</div><div class="aria-metric-l">Resposta</div></div>
+              <div class="aria-metric"><div class="aria-metric-n" style="color:var(--a4)">92</div><div class="aria-metric-l">BANT Score</div></div>
+              <div class="aria-metric"><div class="aria-metric-n" style="color:var(--a2)">ALTA</div><div class="aria-metric-l">Prioridade</div></div>
+              <div class="aria-metric"><div class="aria-metric-n" style="color:var(--a3)">WhatsApp</div><div class="aria-metric-l">Canal</div></div>
+              <div class="aria-metric"><div class="aria-metric-n" style="color:var(--a1)">n8n</div><div class="aria-metric-l">CRM</div></div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- AgendaClin -->
-      <div class="proj-card bookclinic reveal">
+      <!-- DocMind -->
+      <div class="proj-card docmind reveal">
         <div class="proj-info">
           <div class="proj-badges">
-            <span class="proj-badge badge-saas">SaaS</span>
-            <span class="proj-badge badge-health">HealthTech</span>
+            <span class="proj-badge badge-live">● No ar</span>
+            <span class="proj-badge badge-ai">RAG + Extração</span>
+            <span class="proj-badge badge-fusion">LangGraph Multi-Agent</span>
           </div>
-          <h3 class="proj-title">BookClinic</h3>
-          <p class="proj-sub">SaaS de Agendamento Online para Clínicas</p>
-          <p class="proj-desc">Plataforma de agendamento white-label para clínicas de saúde e estética. Cada clínica recebe uma landing page personalizada onde pacientes escolhem o serviço, vêem preço e duração, e confirmam o horário em menos de um minuto — sem telefonemas. Esta instância (AgendaClin) demonstra a experiência para a "Model Dental Clinic".</p>
+          <h3 class="proj-title">DocMind</h3>
+          <p class="proj-sub">Plataforma de Inteligência de Documentos (RAG + Extração)</p>
+          <p class="proj-desc">Sistema multi-agente LangGraph que extrai dados estruturados de documentos não-estruturados (PDFs, contratos, e-mails). Seis agentes especializados orquestram o pipeline: Router, Processor, Extractor (campos customizados em JSON), QA (perguntas sobre o documento), Summarizer e Comparator. Usa pgvector para busca semântica e se integra com n8n para automação com ERPs.</p>
           <div class="proj-tech">
-            <span class="tech-chip">Next.js</span><span class="tech-chip">TypeScript</span>
-            <span class="tech-chip">Booking 24/7</span><span class="tech-chip">Sentry</span>
-            <span class="tech-chip">White-label</span><span class="tech-chip">Vercel</span>
+            <span class="tech-chip">Next.js 16</span><span class="tech-chip">TypeScript</span>
+            <span class="tech-chip">LangGraph.js</span><span class="tech-chip">OpenRouter (Gemini)</span>
+            <span class="tech-chip">pgvector</span><span class="tech-chip">Drizzle ORM</span>
+            <span class="tech-chip">Supabase Realtime</span><span class="tech-chip">pdf-parse</span>
+            <span class="tech-chip">n8n</span><span class="tech-chip">PostgresSaver</span>
           </div>
           <div class="proj-links">
-            <a href="https://agendaclin.vercel.app/model-dental-clinic" target="_blank" class="link-demo green">Ver Landing da Clínica →</a>
-            <a href="https://agendaclin.vercel.app/login" target="_blank" class="link-gh">Login ↗</a>
+            <a href="https://doc-mind-nine-woad.vercel.app" target="_blank" class="link-demo green">Demo ao Vivo →</a>
+          </div>
+          <div class="arch-grid">
+            <div class="arch-item" style="border-color:var(--a5)"><strong style="color:var(--a5)">6 Agentes Especializados</strong><p>Router → Processor → Extractor → QA → Summarizer → Comparator. Cada um com ferramentas e prompts próprios.</p></div>
+            <div class="arch-item" style="border-color:var(--a2)"><strong style="color:var(--a2)">RAG com pgvector</strong><p>Embeddings de documentos armazenados no PostgreSQL para busca semântica em tempo real.</p></div>
+            <div class="arch-item" style="border-color:var(--a4)"><strong style="color:var(--a4)">Extração Estruturada</strong><p>LLM extrai valor, nome, CNPJ e campos customizados — saída em JSON validado por Zod.</p></div>
+            <div class="arch-item" style="border-color:var(--a3)"><strong style="color:var(--a3)">Integração n8n</strong><p>Webhooks conectam e-mail, ERPs e sistemas legados ao pipeline de IA automaticamente.</p></div>
           </div>
         </div>
         <div class="proj-preview" style="background:linear-gradient(135deg,rgba(6,214,160,.04),rgba(11,11,28,1))">
           <div class="mock-win">
             <div class="mock-bar">
               <div class="mdot" style="background:#ff5f57"></div><div class="mdot" style="background:#febc2e"></div><div class="mdot" style="background:#28c840"></div>
-              <div class="mock-url">agendaclin.vercel.app/model-dental-clinic</div>
+              <div class="mock-url">doc-mind-nine-woad.vercel.app</div>
             </div>
-            <div class="agenda-header">
-              <div><div class="agenda-clinic">Model Dental Clinic</div><div class="agenda-spec">Agende sua consulta em minutos · disponível 24/7</div></div>
-              <div class="no-login-badge">● Agendamento instantâneo</div>
+            <div class="agenda-header" style="background:rgba(6,214,160,.07)">
+              <div><div class="agenda-clinic">DocMind</div><div class="agenda-spec">Document Intelligence · RAG Pipeline</div></div>
+              <div class="no-login-badge">● Extração IA</div>
             </div>
             <div class="agenda-body">
-              <div style="margin-bottom:12px;">
-                <div class="bc-service"><span>🦷 Canal dentário · 1h</span><span class="price">$400.00</span></div>
-                <div class="bc-service"><span>🦴 Extração de dente · 50 min</span><span class="price">$120.00</span></div>
-                <div class="bc-service"><span>✨ Limpeza dental · 30 min</span><span class="price">$50.00</span></div>
+              <div style="margin-bottom:10px; display:flex; gap:5px;">
+                <div class="aday" style="flex:3;background:var(--bg-card-2);padding:8px;font-family:var(--fm);font-size:0.62rem;border-radius:6px;text-align:center;border:1px solid var(--a4);background:rgba(6,214,160,.08)">📄 contrato.pdf</div>
               </div>
-              <div class="agenda-book-btn">Agendar consulta →</div>
+              <div class="agenda-slots-label" style="margin-bottom:4px">📋 DADOS EXTRAÍDOS</div>
+              <div class="bc-service" style="margin-bottom:4px"><span>Cliente</span><span class="price">TechCorp Ltda</span></div>
+              <div class="bc-service" style="margin-bottom:4px"><span>CNPJ</span><span class="price">12.345.678/0001-90</span></div>
+              <div class="bc-service" style="margin-bottom:4px"><span>Valor</span><span class="price">R$ 1.234.567,89</span></div>
+              <div class="bc-service" style="margin-bottom:10px"><span>Vencimento</span><span class="price">31/12/2026</span></div>
+              <div class="agenda-book-btn" style="background:linear-gradient(135deg,#06d6a0,#00bfaa);color:#0a2520">QA sobre o Documento →</div>
             </div>
           </div>
         </div>
@@ -538,17 +558,17 @@
       <div class="about-text reveal">
         <div class="sec-label">Quem sou eu</div>
         <h2 class="sec-title">Sobre Mim</h2>
-        <p>Sou <em>Luiz Alberto</em> — Desenvolvedor de IA &amp; Full-Stack criando produtos web na interseção de backends inteligentes e UIs limpas, prontas para produção.</p>
-        <p>Meus projetos vão de <em>chatbots IA usando Claude e Gemini</em> que atendem clientes de múltiplas verticais de forma autônoma, até <em>plataformas SaaS multi-tenant</em> com RBAC real, agendamento com detecção de conflitos e pipelines de e-mail transacional.</p>
-        <p>Preocupo-me com arquitetura tanto quanto com UX — cada projeto tem um schema real, auth real, e está <em>implantado e no ar</em>, não apenas um protótipo. Disponível para freelance no Upwork.</p>
+        <p>Sou <em>Luiz Alberto</em> — Arquiteto de Agentes IA &amp; Full-Stack criando sistemas multi-agente com LangGraph na interseção de plataformas SaaS inteligentes e automação de processos.</p>
+        <p>Meus projetos usam <em>LangGraph.js</em> para orquestrar agentes de IA autônomos que triam pacientes, qualificam leads e extraem dados de documentos — tudo com estado persistente via PostgresSaver, dashboards em tempo real com Supabase Realtime e integração com Google Workspace, WhatsApp e n8n.</p>
+        <p>Preocupo-me com arquitetura tanto quanto com UX — cada projeto tem schema PostgreSQL dedicado (pgSchema), auth real, e está <em>implantado e no ar</em>, não apenas um protótipo. Disponível para freelance no Upwork.</p>
         <div class="about-niche">
-          <p><strong>Minha vantagem:</strong> a maioria dos desenvolvedores tem IA <em>ou</em> SaaS <em>ou</em> HealthTech. Estou na interseção dos três — um pool de talentos menor com taxas significativamente mais altas.</p>
+          <p><strong>Minha vantagem:</strong> a maioria dos desenvolvedores entrega chatbots simples ou CRUDs. Eu entrego <em>sistemas multi-agente com LangGraph, persistência stateful e integrações reais</em> — um pool de talentos ainda menor com taxas significativamente mais altas.</p>
         </div>
       </div>
       <div class="stats-grid reveal">
         <div class="stat"><div class="stat-n">3</div><div class="stat-l">Projetos em produção</div></div>
-        <div class="stat"><div class="stat-n">2x</div><div class="stat-l">Modelos de IA integrados (Claude + Gemini)</div></div>
-        <div class="stat"><div class="stat-n">85%</div><div class="stat-l">Redução de suporte demonstrada</div></div>
+        <div class="stat"><div class="stat-n">5+</div><div class="stat-l">Agentes LangGraph orquestrados</div></div>
+        <div class="stat"><div class="stat-n">3</div><div class="stat-l">Canais integrados (Chat, WhatsApp, Email)</div></div>
         <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Problemas que valem resolver</div></div>
       </div>
     </div>
@@ -560,7 +580,7 @@
     <div class="contact-inner reveal">
       <div class="sec-label" style="justify-content:center">Vamos trabalhar juntos</div>
       <h2 class="c-title">Pronto para construir<br>algo incrível?</h2>
-      <p class="c-desc">Disponível para chatbots IA, SaaS full-stack e projetos HealthTech. Levo ideias do zero a um produto implantado e polido.</p>
+      <p class="c-desc">Disponível para agentes IA com LangGraph, SaaS multi-tenant e automação inteligente. Levo ideias do zero a um produto implantado e polido.</p>
       <div class="c-btns">
         <a href="https://www.upwork.com/freelancers/~01e4d6f95a1f912453" target="_blank" class="btn-upwork">Contratar no Upwork</a>
         <a href="mailto:betosensacao@gmail.com" class="btn-ghost">Enviar E-mail</a>
@@ -577,8 +597,8 @@
 <footer>
   <div class="footer-links">
     <a href="https://medbook-amber.vercel.app/booking" target="_blank" class="btn-ghost">MedBook ↗</a>
-    <a href="https://aria-chatbot-blond.vercel.app/" target="_blank" class="btn-ghost">ARIA ↗</a>
-    <a href="https://agendaclin.vercel.app/model-dental-clinic" target="_blank" class="btn-ghost">BookClinic ↗</a>
+    <a href="https://auto-lead-dun.vercel.app" target="_blank" class="btn-ghost">AutoLead ↗</a>
+    <a href="https://doc-mind-nine-woad.vercel.app" target="_blank" class="btn-ghost">DocMind ↗</a>
   </div>
   <div class="footer-bottom">
     <span>© 2026 Luiz Alberto · Desenvolvedor de Chatbots IA &amp; SaaS</span>
